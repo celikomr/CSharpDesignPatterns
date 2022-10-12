@@ -1,5 +1,8 @@
 ﻿namespace MediatorDesignPattern;
 
+/// <summary>
+/// The 'ConcreteMediator' class
+/// </summary>
 public class ConcreteMediator : IMediator
 {
     public ConcreteColleagueA? ConcreteColleagueA { get; set; }
