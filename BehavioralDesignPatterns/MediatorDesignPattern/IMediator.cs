@@ -2,5 +2,5 @@
 
 public interface IMediator
 {
-    void SendMessage(Colleague colleague, string message);
+    void SendMessage(Colleague colleague, string msg);
 }
